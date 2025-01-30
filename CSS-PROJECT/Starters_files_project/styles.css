@@ -1,0 +1,52 @@
+body{
+    background-color:hsl(30,54%,90%);
+    display: grid;
+    place-content: center;
+}  
+
+.container{
+    width: 500px;
+    border-radius: 20px;
+    background-color: white;
+    padding: 20px;
+}
+
+.container img{
+    border-radius: 10px;
+    height: 200px;
+    width: 500px;
+}
+
+hr{
+    color: hsl(30,18%,87%);
+}
+
+.title{
+    color: hsl(24,5%,18%);
+}
+
+h2,li{
+    color: hsl(14,45%,36%);
+}
+
+li b{
+    color:hsl(333, 9%, 23%);
+}
+
+.Preparation-time{
+    color: hsl(333, 9%, 23%);
+}
+
+
+body h1,h2{
+    font-family: Young serif;
+}
+
+body .intro{
+    font-family: Outfit;
+}
+
+table{
+    width: 100%;
+    align-self: center;
+}
