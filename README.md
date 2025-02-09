@@ -10,11 +10,11 @@ Dynamic interactions with JavaScript
 🛠️ Technologies Used <br>
 HTML5 - Structuring the content <br>
 CSS3 - Styling and layout<br>
-JavaScript (ES6+) - Interactivity<br>
+JavaScript (ES6+) - Interactivity<br><br>
 🎯 Usage:<br>
 Open the project in any modern web browser.
-Customize styles or functionality as needed.
+Customize styles or functionality as needed.<br><br>
 🤝 Contributing
-Contributions are welcome! To contribute:
+Contributions are welcome!
 
 Made with ❤️ by StorM
