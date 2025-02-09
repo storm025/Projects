@@ -7,11 +7,11 @@ Smooth animations and transitions
 Cross-browser compatibility
 Dynamic interactions with JavaScript
 <br><br>
-🛠️ Technologies Used
-HTML5 - Structuring the content
-CSS3 - Styling and layout
-JavaScript (ES6+) - Interactivity
-🎯 Usage
+🛠️ Technologies Used <br>
+HTML5 - Structuring the content <br>
+CSS3 - Styling and layout<br>
+JavaScript (ES6+) - Interactivity<br>
+🎯 Usage:<br>
 Open the project in any modern web browser.
 Customize styles or functionality as needed.
 🤝 Contributing
