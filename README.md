@@ -1,7 +1,7 @@
-📌 Description
+📌 Description : <br>
 A simple project built using HTML, CSS, and JavaScript. It provides a visually appealing and interactive user experience.
 
-🚀 Features
+🚀 Features: <br>
 Responsive design
 Smooth animations and transitions
 Cross-browser compatibility
