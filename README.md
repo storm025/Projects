@@ -1,5 +1,5 @@
 📌 Description : <br>
-A simple project built using HTML, CSS, and JavaScript. It provides a visually appealing and interactive user experience.
+Simple projects built using HTML, CSS, and JavaScript. They provide a visually appealing and interactive user experience.
 
 🚀 Features: <br>
 Responsive design
