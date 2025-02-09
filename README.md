@@ -14,7 +14,6 @@ JavaScript (ES6+) - Interactivity<br><br>
 🎯 Usage:<br>
 Open the project in any modern web browser.
 Customize styles or functionality as needed.<br><br>
-🤝 Contributing
-Contributions are welcome!
+🤝 Contributions are welcome!
 
 Made with ❤️ by StorM
