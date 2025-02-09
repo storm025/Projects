@@ -6,18 +6,7 @@ Responsive design
 Smooth animations and transitions
 Cross-browser compatibility
 Dynamic interactions with JavaScript
-📂 Installation
-Clone the repository
-sh
-Copy
-Edit
-git clone https://github.com/your-username/your-repo.git
-Navigate to the project directory
-sh
-Copy
-Edit
-cd your-repo
-Open index.html in your browser
+<br><br>
 🛠️ Technologies Used
 HTML5 - Structuring the content
 CSS3 - Styling and layout
@@ -28,8 +17,4 @@ Customize styles or functionality as needed.
 🤝 Contributing
 Contributions are welcome! To contribute:
 
-## Fork the repository
-Create a new branch (git checkout -b feature-branch)
-Commit your changes (git commit -m "Add new feature")
-Push to the branch (git push origin feature-branch)
-Open a pull request
+Made with ❤️ by StorM
