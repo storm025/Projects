@@ -1,0 +1,50 @@
+# Node.js dependencies
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Build output
+dist/
+build/
+coverage/
+*.tsbuildinfo
+
+# Temporary files
+tmp/
+temp/
+
+# OS-specific files (ignores .DS_Store in all subdirectories)
+**/.DS_Store
+
+# IDE and editor settings
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Debugging files
+*.pid
+*.seed
+*.stackdump
+
+# Miscellaneous
+.nyc_output/
+.eslintcache
+.cache/
