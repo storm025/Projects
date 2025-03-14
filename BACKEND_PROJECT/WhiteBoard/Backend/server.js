@@ -18,7 +18,8 @@ const server = http.createServer(app);
 const io = new Server(server, {
   cors: {
     origin: ["http://localhost:3000",
-      "https://whiteboard-ankits-projects-75ac4c51.vercel.app/",
+      "https://whiteboard-ankits-projects-75ac4c51.vercel.app",
+      "https://whiteboard-storm025-ankits-projects-75ac4c51.vercel.app",
       "https://whiteboard-delta-lime.vercel.app"],
     methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
     credentials: true,
