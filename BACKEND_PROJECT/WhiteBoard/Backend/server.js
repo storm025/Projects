@@ -1,9 +1,9 @@
 const express = require('express');
-const cors = require('cors');  
+const cors = require('cors');
 const app = express();
 const http = require('http');
 const { Server } = require('socket.io');
-require('dotenv').config(); 
+require('dotenv').config();
 
 const connectToDatabase = require('./db');
 const userRoutes = require('./routes/userRoutes');
@@ -17,7 +17,9 @@ const server = http.createServer(app);
 // Initialize Socket.IO with optimized settings
 const io = new Server(server, {
   cors: {
-    origin: ["http://localhost:3000", "http://127.0.0.1:3000"],
+    origin: ["http://localhost:3000",
+      "https://whiteboard-ankits-projects-75ac4c51.vercel.app/",
+      "https://whiteboard-delta-lime.vercel.app"],
     methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
     credentials: true,
     allowedHeaders: ["Content-Type", "Authorization"],
@@ -40,7 +42,7 @@ io.on('connection', (socket) => {
   socket.on('joinCanvas', (canvasId) => {
     socket.join(canvasId);
     console.log(`User joined canvas: ${canvasId}`);
-    
+
     // Track active users in canvas
     if (!activeCanvases.has(canvasId)) {
       activeCanvases.set(canvasId, new Set());
@@ -112,5 +114,5 @@ app.use('/user', userRoutes);
 app.use('/canvas', canvasRoutes);
 
 server.listen(port, () => {
-    console.log(`🚀 Server is listening on http://localhost:${port}`);
+  console.log(`🚀 Server is listening on http://localhost:${port}`);
 });
