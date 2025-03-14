@@ -92,7 +92,11 @@ connectToDatabase();
 
 // Configure CORS for Express
 app.use(cors({
-  origin: ["http://localhost:3000", "http://127.0.0.1:3000"],
+  origin: ["http://localhost:3000", 
+    "http://127.0.0.1:3000",
+    "https://whiteboard-ankits-projects-75ac4c51.vercel.app",
+    "https://whiteboard-storm025-ankits-projects-75ac4c51.vercel.app",
+    "https://whiteboard-delta-lime.vercel.app"],
   methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
   credentials: true,
   allowedHeaders: ["Content-Type", "Authorization"],
