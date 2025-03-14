@@ -63,7 +63,7 @@ io.on('connection', (socket) => {
     updateTimeout = setTimeout(() => {
       console.log(`Broadcasting canvas update for: ${canvasId}`);
       socket.to(canvasId).emit('canvasUpdated', elements);
-    }, 16); // ~60fps
+    }, 16);
   });
 
   // Handle disconnection
@@ -108,8 +108,8 @@ app.use((err, req, res, next) => {
   }
 });
 
-app.use('/api/user', userRoutes);
-app.use('/api/canvas', canvasRoutes);
+app.use('/user', userRoutes);
+app.use('/canvas', canvasRoutes);
 
 server.listen(port, () => {
     console.log(`🚀 Server is listening on http://localhost:${port}`);
